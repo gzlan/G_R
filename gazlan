@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+
+int a[4],b[4],i,j, fact[4];
+
+for(i=0;i<4;i++)
+ 
+ {
+cout<<"Enter elment a"<<"["<<i+1<<"]"<<endl;
+cin>>a[i];
+  }
+
+for(j=0;j<4;j++)
+ {
+cout<<"Enter elment b"<<"["<<i+1<<"]"<<endl;
+cin>>b[j];
+ }
+
+for(i=0;i<4;i++)
+fact[i]=a[i]*b[i];
+
+
+for(i=0;i<4;i++)
+
+cout<<fact[i]<<"  ";
+
+cout<<"\n";
+
+return 0;
+}
